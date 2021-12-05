@@ -10,9 +10,9 @@ forceload add 2 2
 setblock 2 2 2 minecraft:black_shulker_box
 # プレイヤーのインベントリに入れたいアイテムを詰めておく
 data modify block 2 2 2 Items append value {id:"minecraft:diamond_helmet",Count:1b,Slot:0b}
-data modify block 2 2 2 Items append value {id:"minecraft:diamond_chestplate",Count:1b,Slot:0b}
-data modify block 2 2 2 Items append value {id:"minecraft:diamond_leggings",Count:1b,Slot:0b}
-data modify block 2 2 2 Items append value {id:"minecraft:diamond_boots",Count:1b,Slot:0b}
+data modify block 2 2 2 Items append value {id:"minecraft:diamond_chestplate",Count:1b,Slot:1b}
+data modify block 2 2 2 Items append value {id:"minecraft:diamond_leggings",Count:1b,Slot:2b}
+data modify block 2 2 2 Items append value {id:"minecraft:diamond_boots",Count:1b,Slot:3b}
 # プレイヤーのインベントリに入れる
 loot replace entity @s inventory.0 27 mine 2 2 2 minecraft:debug_stick
 # 箱を消しておく
